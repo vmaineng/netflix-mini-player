@@ -1,11 +1,7 @@
 import { useState } from "react";
-import {
-  FaPlay,
-  FaPause,
-  FaVolumeXmark,
-  FaVolumeHigh,
-  FaWindowMaximize,
-} from "react-icons/fa";
+import { FaPlay, FaPause, FaWindowMaximize } from "react-icons/fa";
+import { FaVolumeXmark, FaVolumeHigh } from "react-icons/fa6";
+
 import { MdOutlineClose } from "react-icons/md";
 import { Movie } from "../types";
 import Image from "next/image";
@@ -27,6 +23,8 @@ export function MiniPlayer({ movie, onClose, onExpand }: MiniPlayerProps) {
         <Image
           src={movie.image}
           alt={movie.title}
+          height="100"
+          width="100"
           className="w-full h-full object-cover"
         />
 

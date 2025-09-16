@@ -12,7 +12,7 @@ export function Hero({ movie, onPlayMovie }: HeroProps) {
     <div className="relative h-[60vh] mb-8">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `{url(${movie.image})}` }}
+        style={{ backgroundImage: `url(${movie.image})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from black via-black to-transparent"></div>
       </div>
@@ -24,9 +24,10 @@ export function Hero({ movie, onPlayMovie }: HeroProps) {
           <div className="flex gap-4">
             <button
               onClick={() => onPlayMovie(movie)}
-              className="bg-white text-white px-8 py-3 rounded flex items-center gap-2 hover:bg-gray-200 transition-colors"
+              className="bg-white text-black px-8 py-3 rounded flex items-center gap-2 hover:bg-gray-200 transition-colors"
             >
               <FaPlay className="w-5 h-5" />
+              Play
             </button>
             <button className="bg-gray-600 text-white px-8 py-3 rounded hover:bg-gray-500 transition-colors">
               More Info

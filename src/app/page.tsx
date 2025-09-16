@@ -1,3 +1,4 @@
+"use client";
 import { Navbar } from "./components/Navbar";
 import { MovieSection } from "./components/MovieSection";
 import { MiniPlayer } from "./components/Miniplayer";
