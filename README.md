@@ -30,6 +30,8 @@ The **Netflix Mini Player** concept introduces:
 
 This approach aligns with Netflix’s core mission: *“entertainment without limits.”*  
 
+- Figma design: https://guide-hedge-09852749.figma.site
+
 ---
 
 ## 🛠️ Technologies Used  
