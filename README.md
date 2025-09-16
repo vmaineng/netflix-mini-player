@@ -63,7 +63,7 @@ This approach aligns with Netflix’s core mission: *“entertainment without li
 
 ## 🎥 Demo Preview  
 ![Mini Player Demo](https://netflix-mini-player-aowf1cpar-vmainengs-projects.vercel.app/)  
-(https://github.com/user-attachments/assets/eb70bebf-6009-43c5-b752-288d8dc9a8d6)
+![Image](https://github.com/user-attachments/assets/96149ccd-d5e5-467d-8e54-b1cdb62e12be)
 
 ---
 
